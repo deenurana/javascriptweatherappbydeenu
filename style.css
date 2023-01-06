@@ -1,0 +1,55 @@
+*{
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('image2.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+.box{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+.city{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+}
+.temperature{
+    font-size: 140px;
+    color: white;
+}
+.weather, .min-max{
+    font-size: 34px;
+    color: white;
+    margin-top: 6px;
+}
+.wind{
+    font-size: 30px;
+    color: white;
+}
+.serach_box{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
